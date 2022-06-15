@@ -1,0 +1,33 @@
+
+файл .env (DEPLOY_ALL=true це щоб задеплоїлися всі контракти зразу, типу 1155 і 721, коштує приблизно 0.25 ether, 
+якшо забрати DEPLOY_ALL=true коштуватиме 0.1 ether. Ще DEPLOY_CREATURES_SALE=1 має бути 0, але воно шо так не працювало шо так)
+
+INFURA_KEY="05de8b07167c432cb2872879f99a8ac7"
+MNEMONIC="actual outdoor field merit fiscal canvas bargain coconut brick degree tragic small"
+OWNER_ADDRESS="0x9633e99ed3Ae42Bf5606A768b67Bb3491639b178"
+NFT_CONTRACT_ADDRESS="0xC26EEcD2F3306eC8eE52ae5b3e44a3a73099fb60"
+FACTORY_CONTRACT_ADDRESS="0x36b9a90f47e0248435A04bC990529678200811DD"
+LOOTBOX_CONTRACT_ADDRESS="0x2B51b1C95dB0a1535c9bB16EF5E98A2712c21bAb"
+DEPLOY_CREATURES_SALE=1
+DEPLOY_ALL=true
+NETWORK=rinkeby
+
+
+це я додавав всюди де треба файл .env
+require('dotenv').config({path: ".env"});
+
+функція яку я додав в CreatetureFactory.sol
+function setProxyRegistryAddress(address _proxyRegistryAddress) public {
+        proxyRegistryAddress = _proxyRegistryAddress;
+}
+
+
+адреси контрактів
+721 contract 0xC26EEcD2F3306eC8eE52ae5b3e44a3a73099fb60
+721 factoryContract 0x2B51b1C95dB0a1535c9bB16EF5E98A2712c21bAb
+1155 contract 0xDaB0993D1f493A283A229a0922AB7D62C6569180
+1155 facactoryContract 0x36b9a90f47e0248435A04bC990529678200811DD
+
+помилки які вискакували
+UnhandledPromiseRejectionWarning: Error: API Error 429: Message: {"detail":"Request was throttled. Expected available in 1 second."}
+UnhandledPromiseRejectionWarning: Error: API Error 404: Not found. Full message was '{"success":false}'
