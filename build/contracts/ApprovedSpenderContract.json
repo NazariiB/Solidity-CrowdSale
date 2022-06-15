@@ -1,0 +1,119 @@
+{
+  "contractName": "ApprovedSpenderContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/nazik/Git/opensea-creatures/contracts/test/ApprovedSpenderContract.sol\":\"ApprovedSpenderContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20},\"remappings\":[]},\"sources\":{\"/C/Users/nazik/Git/opensea-creatures/contracts/test/ApprovedSpenderContract.sol\":{\"keccak256\":\"0x95e08d08537b1d871119456f311b8217fea451e8f3c15993488baab52c220585\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://db130452871ad602d91abb00199029c4ecf09867a349efc12e7c77803281fb40\",\"dweb:/ipfs/QmZGUv6zTMRnEqnjkpTy6WSFSNNtveKXiLkDKJL8K4oZb5\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220fe680fdfca3acb2545f09e54b285cd318a882956e4c733a9c9b5c9acccba0e3564736f6c634300080e0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220fe680fdfca3acb2545f09e54b285cd318a882956e4c733a9c9b5c9acccba0e3564736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "62:43:16:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:43:16:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract ApprovedSpenderContract {\r\n    \r\n}",
+  "sourcePath": "C:/Users/nazik/Git/opensea-creatures/contracts/test/ApprovedSpenderContract.sol",
+  "ast": {
+    "absolutePath": "/C/Users/nazik/Git/opensea-creatures/contracts/test/ApprovedSpenderContract.sol",
+    "exportedSymbols": {
+      "ApprovedSpenderContract": [
+        3303
+      ]
+    },
+    "id": 3304,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3302,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:16"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ApprovedSpenderContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3303,
+        "linearizedBaseContracts": [
+          3303
+        ],
+        "name": "ApprovedSpenderContract",
+        "nameLocation": "71:23:16",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3304,
+        "src": "62:43:16",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:70:16"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/nazik/Git/opensea-creatures/contracts/test/ApprovedSpenderContract.sol",
+    "exportedSymbols": {
+      "ApprovedSpenderContract": [
+        3303
+      ]
+    },
+    "id": 3304,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3302,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:16"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ApprovedSpenderContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3303,
+        "linearizedBaseContracts": [
+          3303
+        ],
+        "name": "ApprovedSpenderContract",
+        "nameLocation": "71:23:16",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3304,
+        "src": "62:43:16",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:70:16"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2022-06-14T21:02:29.197Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
